@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:your_name="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/bglistitem"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="6"
+            android:orientation="horizontal"
+            android:weightSum="2.5">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                android:scaleType="fitCenter"
+                android:src="@drawable/smallfinancial" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="6.5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <com.example.fatmaali.madrasty.FontTextView
+                        android:id="@+id/TitleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:gravity="left"
+                        android:text="@string/newTitle"
+                        android:textSize="13dp"
+                        your_name:customFont="bukra_medium.ttf" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:padding="1dp"
+                    android:weightSum="3">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".2"
+                        android:gravity="left|top"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/correctmarker" />
+
+                    <com.example.fatmaali.madrasty.FontTextView
+                        android:id="@+id/typeFinancial"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1.3"
+                        android:gravity="left|top"
+                        android:text="@string/financial"
+                        android:textSize="11dp"
+                        your_name:customFont="bukra_regular.ttf" />
+
+                    <com.example.fatmaali.madrasty.FontTextView
+                        android:id="@+id/dateFinancial"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3"
+                        android:gravity="bottom|right"
+                        android:text="@string/financial"
+                        android:textSize="11dp"
+                        your_name:customFont="bukra_regular.ttf" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:padding="6dp"
+            android:weightSum="10">
+
+            <com.example.fatmaali.madrasty.FontTextView
+                android:id="@+id/periodTo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:gravity="center"
+                android:textSize="13dp"
+                your_name:customFont="bukra_medium.ttf" />
+
+            <com.example.fatmaali.madrasty.FontTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="@string/periodTo"
+                android:textSize="13dp"
+                your_name:customFont="bukra_medium.ttf" />
+
+            <com.example.fatmaali.madrasty.FontTextView
+                android:id="@+id/periodFrom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:gravity="center"
+                android:textSize="13dp"
+                your_name:customFont="bukra_medium.ttf" />
+
+            <com.example.fatmaali.madrasty.FontTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="@string/periodFrom"
+                android:textSize="13dp"
+                your_name:customFont="bukra_medium.ttf" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

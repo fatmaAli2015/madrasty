@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:your_name="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_margin="8dp"
+    android:weightSum="5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="3"
+            android:weightSum="4.3">
+
+            <ImageView
+                android:id="@+id/remove100"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_remove_circle_outline_black_24dp" />
+
+            <com.example.fatmaali.madrasty.FontEditView
+                android:id="@+id/edtxt_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.3"
+                android:gravity="center"
+                android:hint="0.00"
+                android:inputType="number"
+                android:textSize="16dp"
+                your_name:customFont="bukra_regular.ttf" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_add_circle_outline_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.example.fatmaali.madrasty.FontTextView
+                android:id="@+id/TypeBalance"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:lineSpacingExtra="5dp"
+                android:text="البيانات الاساسيه"
+                android:textSize="11dp"
+                your_name:customFont="bukra_regular.ttf" />
+
+            <TextView
+                android:id="@+id/TypeBalanceId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:gravity="center"
+                android:text=""
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorLine" />
+
+</LinearLayout>

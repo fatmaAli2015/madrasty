@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:your_name="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageSlideSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img1" />
+
+    <com.example.fatmaali.madrasty.FontTextView
+        android:id="@+id/textSlideSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp"
+        android:text="@string/splash_text1"
+        android:textSize="14dp"
+        your_name:customFont="bukra_regular.ttf" />
+
+
+</LinearLayout>

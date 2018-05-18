@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:your_name="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loginFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="100dp"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <com.example.fatmaali.madrasty.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/login"
+                    android:textColor="#747474"
+                    android:textSize="15dp"
+                    your_name:customFont="bukra_regular.ttf" />
+
+                <com.example.fatmaali.madrasty.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/loginText"
+                    android:textColor="#747474"
+                    android:textSize="11dp"
+                    your_name:customFont="bukra_regular.ttf" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1.5"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <AutoCompleteTextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:text="" />
+
+                    <com.example.fatmaali.madrasty.FontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5"
+                        android:gravity="center"
+                        android:text="@string/userName"
+                        android:textColor="@color/colorTextC1"
+                        android:textSize="11dp"
+                        your_name:customFont="bukra_regular.ttf" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight=".1"
+                    android:background="@color/colorLine" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <AutoCompleteTextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:text="" />
+
+                    <com.example.fatmaali.madrasty.FontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5"
+                        android:gravity="center"
+                        android:text="@string/password"
+                        android:textColor="@color/colorTextC1"
+                        android:textSize="11dp"
+                        your_name:customFont="bukra_regular.ttf" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight=".1"
+                    android:background="@color/colorLine" />
+
+                <com.example.fatmaali.madrasty.FontTextView
+                    android:id="@+id/nextToProject"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/butlogin"
+                    android:gravity="center"
+                    android:text="@string/login"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="15dp"
+                    your_name:customFont="bukra_regular.ttf" />
+
+                <com.example.fatmaali.madrasty.FontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/loginWays"
+                    android:textColor="@color/colorLoginWays"
+                    android:textSize="11dp"
+                    your_name:customFont="bukra_regular.ttf" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1.5"
+                    android:orientation="horizontal"
+                    android:weightSum="6.2">
+
+                    <com.example.fatmaali.madrasty.FontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="@string/google"
+                        android:textColor="@color/google"
+                        android:textSize="11dp"
+                        your_name:customFont="bukra_regular.ttf" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight=".1"
+                        android:background="@color/colorLine" />
+
+                    <com.example.fatmaali.madrasty.FontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="@string/facebook"
+                        android:textColor="@color/facebook"
+                        android:textSize="11dp"
+                        your_name:customFont="bukra_regular.ttf" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight=".1"
+                        android:background="@color/colorLine" />
+
+                    <com.example.fatmaali.madrasty.FontTextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="@string/tweeter"
+                        android:textColor="@color/tweeter"
+                        android:textSize="11dp"
+                        your_name:customFont="bukra_regular.ttf" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <com.example.fatmaali.madrasty.FontTextView
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="@string/new_acount"
+                android:textColor="@color/registration"
+                android:textSize="13dp"
+                your_name:customFont="bukra_medium.ttf" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:your_name="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/linearStatic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.7"
+            android:layout_marginRight="7dp"
+            android:weightSum="2">
+
+            <com.example.fatmaali.madrasty.FontTextView
+                android:id="@+id/txtStatic"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="right|center"
+                android:paddingRight="5dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="17dp"
+                your_name:customFont="bukra_medium.ttf" />
+
+            <com.example.fatmaali.madrasty.FontTextView
+                android:id="@+id/txtStaticNum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:gravity="left|center"
+                android:paddingRight="30dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="35dp"
+                your_name:customFont="bukra_medium.ttf" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageStatic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLine">#c9c5c5</color>
+    <color name="colorBut">#556271</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorLoginWays">#3884C6</color>
+    <color name="google">#F05F5F</color>
+    <color name="tweeter">#4CAAFC</color>
+    <color name="facebook">#3884C6</color>
+    <color name="registration">#939393</color>
+    <color name="startCardColor">#9EB4D5</color>
+    <color name="endCardColor">#40536F</color>
+    <color name="centerCardColor">#768BA9</color>
+    <color name="startCardColor1">#81ADFC</color>
+    <color name="endCardColor1">#AC86EB</color>
+    <color name="centerCardColor1">#969AF4</color>
+    <color name="startCardColor2">#FEEA93</color>
+    <color name="endCardColor2">#FF9DAE</color>
+    <color name="centerCardColor2">#FEC5A0</color>
+    <color name="StartBtnViewPager">#6C809F</color>
+    <color name="endBtnViewPager">#3874CB</color>
+
+    <color name="startBtnBg1">#F45D7E</color>
+    <color name="endBtnBg1">#EC90E9</color>
+
+    <color name="startBtnBg2">#FD9B8D</color>
+    <color name="endBtnBg2"> #FBBE7E</color>
+
+    <color name="startBtnBg3">#B1C4F8</color>
+    <color name="endBtnBg3">#A077E8</color>
+
+    <color name="startBtnBg4">#BFE89C</color>
+    <color name="endBtnBg4">#5CCD92</color>
+
+    <color name="startBtnBg5">#F5B9D5</color>
+    <color name="endBtnBg5">#A86FDA</color>
+
+    <color name="startBtnBg6">#FBA6C6</color>
+    <color name="endBtnBg6">#F4787C</color>
+
+    <color name="colorBlack">#000</color>
+
+    <color name="colorSendStart">#348DEA</color>
+    <color name="colorSendEnd">#45A0E9</color>
+    <color name="colorTextC">#888888</color>
+    <color name="colorTextC1">#939393</color>
+
+</resources>

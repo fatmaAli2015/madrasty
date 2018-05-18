@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:your_name="http://schemas.android.com/apk/res-auto"
+    package="com.example.fatmaali.madrasty">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.ActionBar.Transparent">
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.LoginResActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.CustomNavigation"
+            android:parentActivityName=".Activity.LoginResActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fatmaali.madrasty.Activity.LoginResActivity" />
+        </activity>
+        <activity android:name=".Activity.Categories.FinancialCentre" />
+        <activity
+            android:name=".Activity.Categories.subCategoriesFinancial.PreFinancialActivity"
+            android:parentActivityName=".Activity.Categories.FinancialCentre"
+            android:theme="@style/AppTheme.ActionBar.Transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fatmaali.madrasty.Activity.Categories.FinancialCentre" />
+        </activity>
+        <activity
+            android:name=".Activity.Categories.subCategoriesFinancial.NewFinancialActivity"
+            android:parentActivityName=".Activity.Categories.FinancialCentre"
+            android:theme="@style/AppTheme.ActionBar.Transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fatmaali.madrasty.Activity.Categories.FinancialCentre" />
+        </activity>
+        <activity
+            android:name=".Activity.Categories.subCategoriesFinancial.branchesOfSubCat.BasicInformation"
+            android:parentActivityName=".Activity.Categories.subCategoriesFinancial.NewFinancialActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fatmaali.madrasty.Activity.Categories.subCategoriesFinancial.NewFinancialActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.Categories.subCategoriesFinancial.branchesOfSubCat.Predecessor"
+            android:parentActivityName=".Activity.Categories.subCategoriesFinancial.NewFinancialActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fatmaali.madrasty.Activity.Categories.subCategoriesFinancial.NewFinancialActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.Categories.subCategoriesFinancial.branchesOfSubCat.NumberOfPayers"
+            android:parentActivityName=".Activity.Categories.subCategoriesFinancial.NewFinancialActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fatmaali.madrasty.Activity.Categories.subCategoriesFinancial.NewFinancialActivity" />
+        </activity>
+        <activity android:name=".Activity.Categories.subCategoriesFinancial.branchesOfSubCat.PreviousBalance" />
+        <activity android:name=".Activity.Categories.subCategoriesFinancial.branchesOfSubCat.OtherDepositsActivity" />
+        <activity android:name=".Activity.Categories.subCategoriesFinancial.branchesOfSubCat.PrintingActivity"></activity>
+    </application>
+
+</manifest>

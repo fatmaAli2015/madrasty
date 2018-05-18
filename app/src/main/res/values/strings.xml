@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Madrasty</string>
+    <!--splashStrings-->
+    <string name="splash_text1">يمكنك في خطوات قليلة جدا انشاء كشوف مرتباتك بنجاح عن طريق مدرستي فانت هنافي الطريق الصحيح ابدا معنا الان  </string>
+    <string name="splash_text2">يمكنك في خطوات قليلة جدا انشاء حافظةتوريد بنجاح عن طريق مدرستي فانت هنا في الطريق الصحيح ابدا معنا الان  </string>
+    <string name="splash_text3">يمكنك في خطوات قليلة جدا انشاء مركزك المالي بنجاح عن طريق مدرستي فانت هنا في الطريق الصحيح ابدا معنا الان</string>
+    <string name="skip">تخطي</string>
+
+
+    <!--Login and Registration Strings-->
+    <string name="new_acount">انشاء حساب جديد</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="loginText">اذا كنت مسجل من قبل وتريد استرجاع بياناتك فقم بتسجيل الدخول</string>
+    <string name="userName">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="loginWays">او يمكنك تسجيل الدخول عبر</string>
+    <string name="google">جوجل</string>
+    <string name="tweeter">تويتر</string>
+    <string name="facebook">فيسبوك</string>
+
+    <string name="registratin">تسجيل حساب جديد</string>
+    <string name="registrationText">لحفظ كافة بياناتك في سرية تامة ابدأ بانشاء حساب جديد</string>
+    <string name="fullName">الاسم بالكامل</string>
+    <string name="phoneNumber">رقم الهاتف</string>
+    <string name="confirmPassword">تاكيد كلمة المرور</string>
+    <string name="questionOfRegistration">هل لديك حساب بالفعل؟</string>
+    <string name="ok">حسنا </string>
+    <string name="clickHere">اضغط هنا</string>
+
+    <string name="financialCentre">المركز المالي</string>
+    <string name="book">حافظة التوريد </string>
+    <string name="elmrtabat">كشوف المرتبات </string>
+
+    <string name="cardText">البرنامج الامثل للمدرسة نمكنك من انشاء تقاريرك في غضون دقائق ( مركزك المالي - حافظة التوريد - كشف المرتبات)</string>
+    <string name="cardBtn">رصيدك ١٢٠ ج.م</string>
+    <string name="call">متابعة كافة المراكز المالية السابقة</string>
+    <string name="message">انشاء مركز مالي جديد</string>
+    <string name="newTitle">اسم المدرسة</string>
+    <string name="financial">فني تجاري</string>
+    <string name="periodTo">المدة الي :</string>
+    <string name="periodFrom">المدة من :</string>
+    <string name="txtFinancial">يمكنك انشاء المركز المالي في غضون دقائق عن طريق مدرستي،
+        قم بأتباع الخطوات التالية بالترتيب المحدد وقم بأدخال كافة البيانات الازمة بالترتيب الموضح لانشاء مركزك المالي بنجاح
+    </string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+
+
+    <string name="basicInformation"> البيانات الاساسية </string>
+    <string name="predecessor"> السلف </string>
+    <string name="NumberOfPayers"> عدد المسددين </string>
+    <string name="previousBalance"> الرصيد السابق</string>
+    <string name="OtherDeposits"> الايداعات الاخرى</string>
+    <string name="printing"> الطباعة</string>
+
+    <string name="confirmBasicInf">برجاء ادخال كافة البيانات</string>
+    <string name="learning">التعليم</string>
+    <string name="general">عام</string>
+    <string name="technical">فنى</string>
+    <string name="type">النوع</string>
+    <string name="Kindergarten">رياض اطفال</string>
+    <string name="primary">ابتدائى</string>
+    <string name="preparatory">اعدادى</string>
+    <string name="secondary">ثانوى</string>
+
+    <string name="NameOfAdministration">اسم الادارة</string>
+    <string name="SchoolName">اسم المدرسة</string>
+    <string name="send">ارسال</string>
+
+    <string name="predecessor1">سلفة 1</string>
+    <string name="predecessor2">سلفة 2</string>
+    <string name="predecessor3">سلفة 3</string>
+    <string name="predecessor4">سلفة 4</string>
+    <string name="predecessor5">سلفة 5</string>
+    <string name="predecessor6">سلفة 6</string>
+
+
+</resources>
